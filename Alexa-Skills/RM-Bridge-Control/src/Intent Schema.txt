@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "intent": "OnOffEventIntent",
+      "slots": [
+        {
+          "name": "onOffAction",
+          "type": "LIST_OF_ON_OFF_ACTIONS"
+        },
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        }
+      ]
+    },
+    {
+      "intent": "AudioControlEventIntent",
+   "slots": [
+        {
+          "name": "audioControlAction",
+          "type": "LIST_OF_AUDIO_CONTROL_ACTIONS"
+        },
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        },
+        {
+          "name": "quantity",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "quantityIndicator",
+          "type": "QUANTITY_INDICATOR"
+        },
+    	{
+          "name": "attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        }
+      ]
+    },
+    {
+      "intent": "VideoControlEventIntent",
+   "slots": [
+        {
+          "name": "videoControlAction",
+          "type": "LIST_OF_VIDEO_CONTROL_ACTIONS"
+        },
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        },
+    	{
+          "name": "attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        }
+      ]
+    },
+    {
+      "intent": "GeneralControlEventIntent",
+   "slots": [
+        {
+          "name": "generalControlAction",
+          "type": "LIST_OF_GENERAL_CONTROL_ACTIONS"
+        },
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        },
+    	{
+          "name": "attribute",
+          "type": "LIST_OF_ATTRIBUTES"
+        }
+      ]
+    },
+    {
+      "intent": "DeviceRepromptEventIntent",
+      "slots": [
+        {
+          "name": "device",
+          "type": "LIST_OF_DEVICES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
+

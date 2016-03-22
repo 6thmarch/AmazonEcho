@@ -1,0 +1,149 @@
+OnOffEventIntent {onOffAction} {device}
+OnOffEventIntent switch {onOffAction} {device}
+OnOffEventIntent turn {onOffAction} {device}
+OnOffEventIntent switch {onOffAction} the {device}
+OnOffEventIntent turn {onOffAction} the {device}
+OnOffEventIntent switch {onOffAction} all {device}
+OnOffEventIntent turn {onOffAction} all {device}
+OnOffEventIntent power {onOffAction} {device}
+OnOffEventIntent power {onOffAction} the {device}
+OnOffEventIntent {onOffAction} the {device}
+OnOffEventIntent {onOffAction} all {device}
+OnOffEventIntent {onOffAction} {device}
+OnOffEventIntent {onOffAction} the {device}
+OnOffEventIntent roll {onOffAction} the {device}
+OnOffEventIntent prepare the {device}
+
+AudioControlEventIntent {audioControlAction}
+AudioControlEventIntent {audioControlAction} the {attribute}
+AudioControlEventIntent {audioControlAction} the {attribute} {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} by {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} of {device}
+AudioControlEventIntent {audioControlAction} the {attribute} of the {device}
+AudioControlEventIntent {audioControlAction} the {attribute} of {device} {quantity}
+AudioControlEventIntent {audioControlAction} the {attribute} of {device} {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} of the {device} {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} of {device} by {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} of the {device} by {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} of the {device} by {quantity}
+AudioControlEventIntent bring {audioControlAction} the {attribute} of {device}
+AudioControlEventIntent bring {audioControlAction} the {attribute} of the {device}
+AudioControlEventIntent bring {audioControlAction} the {attribute} of {device} {quantity}
+AudioControlEventIntent bring {audioControlAction} the {attribute} of {device} {quantity} {quantityIndicator}
+AudioControlEventIntent bring {audioControlAction} the {attribute} of {device} by {quantity} {quantityIndicator}
+AudioControlEventIntent bring {audioControlAction} the {attribute} of {device} by {quantity}
+AudioControlEventIntent make {device} {audioControlAction}
+AudioControlEventIntent make {device} {audioControlAction} {quantity}
+AudioControlEventIntent make {device} {audioControlAction} {quantity} {quantityIndicator}
+AudioControlEventIntent make {device} {audioControlAction} by {quantity} {quantityIndicator}
+AudioControlEventIntent make the {device} {audioControlAction}
+AudioControlEventIntent make the {device} {audioControlAction} {quantity}
+AudioControlEventIntent make the {device} {audioControlAction} {quantity} {quantityIndicator}
+AudioControlEventIntent make the {device} {audioControlAction} by {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} down the {attribute}
+AudioControlEventIntent {audioControlAction} down the {attribute} {quantity}
+AudioControlEventIntent {audioControlAction} down the {attribute} {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} down the {attribute} by {quantity} {quantityIndicator}
+AudioControlEventIntent get {device} to {audioControlAction} down
+AudioControlEventIntent get {device} to {audioControlAction} down {quantity}
+AudioControlEventIntent get {device} to {audioControlAction} down {quantity} {quantityIndicator}
+AudioControlEventIntent get {device} to {audioControlAction} down by {quantity} {quantityIndicator}
+AudioControlEventIntent get {device} to {audioControlAction} down the {attribute}
+AudioControlEventIntent get {device} to {audioControlAction} down the {attribute} {quantity}
+AudioControlEventIntent get {device} to {audioControlAction} down the {attribute} {quantity} {quantityIndicator}
+AudioControlEventIntent get {device} to {audioControlAction} down the {attribute} by {quantity} {quantityIndicator}
+AudioControlEventIntent get {device} to {audioControlAction} the {attribute}
+AudioControlEventIntent get the {device} to {audioControlAction} down
+AudioControlEventIntent get the {device} to {audioControlAction} down the {attribute}
+AudioControlEventIntent get the {device} to {audioControlAction} down the {attribute} {quantity}
+AudioControlEventIntent get the {device} to {audioControlAction} down the {attribute} {quantity} {quantityIndicator}
+AudioControlEventIntent get the {device} to {audioControlAction} down the {attribute} by {quantity} {quantityIndicator}
+AudioControlEventIntent get the {device} to {audioControlAction} the {attribute}
+AudioControlEventIntent get the {device} to {audioControlAction} the {attribute} {quantity}
+AudioControlEventIntent get the {device} to {audioControlAction} the {attribute} {quantity} {quantityIndicator}
+AudioControlEventIntent get the {device} to {audioControlAction} the {attribute} by {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} {quantity}
+AudioControlEventIntent {audioControlAction} the {attribute} {quantity} {quantityIndicator}
+AudioControlEventIntent {audioControlAction} the {attribute} by {quantity} {quantityIndicator}
+
+AudioControlEventIntent bring {audioControlAction} the {attribute}
+AudioControlEventIntent bring {audioControlAction} the {attribute} by {quantity}
+AudioControlEventIntent bring {audioControlAction} the {attribute} {quantity}
+AudioControlEventIntent bring {audioControlAction} the {attribute} by {quantity} {quantityIndicator}
+AudioControlEventIntent bring {audioControlAction} the {attribute} by {quantity}
+AudioControlEventIntent {audioControlAction} down
+AudioControlEventIntent {audioControlAction}
+AudioControlEventIntent {audioControlAction} {device}
+AudioControlEventIntent switch to {audioControlAction}
+AudioControlEventIntent switch to {audioControlAction} {attribute}
+AudioControlEventIntent {audioControlAction}
+AudioControlEventIntent change the {device} to {audioControlAction}
+AudioControlEventIntent change {device} to {audioControlAction}
+AudioControlEventIntent switch the {device} to {audioControlAction}
+AudioControlEventIntent switch {device} to {audioControlAction}
+
+VideoControlEventIntent switch {device} {attribute} to {videoControlAction}
+VideoControlEventIntent change {device} {attribute} to {videoControlAction}
+VideoControlEventIntent turn {videoControlAction} {device} {attribute}
+VideoControlEventIntent switch {videoControlAction} {device} {attribute}
+VideoControlEventIntent switch the {device} {attribute} to {videoControlAction}
+VideoControlEventIntent change the {device} {attribute} to {videoControlAction}
+VideoControlEventIntent turn {videoControlAction} the {device} {attribute}
+VideoControlEventIntent switch {videoControlAction} the {device} {attribute}
+
+
+GeneralControlEventIntent {device} {generalControlAction}
+GeneralControlEventIntent {generalControlAction} the {device}
+GeneralControlEventIntent roll {generalControlAction} the {device}
+GeneralControlEventIntent to bring {generalControlAction} the {device}
+GeneralControlEventIntent change the {generalControlAction}
+GeneralControlEventIntent switch the {generalControlAction}
+GeneralControlEventIntent change {generalControlAction}  of the {device}
+GeneralControlEventIntent switch {generalControlAction}  of {device}
+GeneralControlEventIntent set {generalControlAction} for the {device}
+GeneralControlEventIntent set {generalControlAction} of the {device}
+GeneralControlEventIntent change {device} {attribute}
+GeneralControlEventIntent switch {device} {attribute}
+GeneralControlEventIntent change the {device} {attribute}
+GeneralControlEventIntent switch the {device} {attribute}
+GeneralControlEventIntent change to {generalControlAction} for {device}
+GeneralControlEventIntent switch to {generalControlAction} for {device}
+
+GeneralControlEventIntent change the {device} {generalControlAction}
+GeneralControlEventIntent change {generalControlAction} for {device} 
+GeneralControlEventIntent switch {generalControlAction} for {device} 
+
+GeneralControlEventIntent switch {generalControlAction} of {device} 
+GeneralControlEventIntent change {generalControlAction} of {device} 
+
+GeneralControlEventIntent change the {generalControlAction} for {device} 
+GeneralControlEventIntent change the {generalControlAction} of {device} 
+GeneralControlEventIntent switch the {generalControlAction} of {device}
+GeneralControlEventIntent switch the {generalControlAction} for {device}
+GeneralControlEventIntent change the {generalControlAction} of the {device}
+GeneralControlEventIntent switch the {generalControlAction} of the {device}
+GeneralControlEventIntent change the {device} to {generalControlAction}
+GeneralControlEventIntent switch the {device} to {generalControlAction}
+GeneralControlEventIntent switch {device} to {generalControlAction}
+GeneralControlEventIntent change {device} to {generalControlAction}
+GeneralControlEventIntent change {attribute} to {generalControlAction}
+GeneralControlEventIntent switch {attribute} to {generalControlAction}
+
+DeviceRepromptEventIntent {device}
+DeviceRepromptEventIntent it's {device}
+DeviceRepromptEventIntent it's the {device}
+DeviceRepromptEventIntent It is {device}
+DeviceRepromptEventIntent It is the {device}
+DeviceRepromptEventIntent That's the {device}
+DeviceRepromptEventIntent That is {device}
+DeviceRepromptEventIntent That is the {device}
+DeviceRepromptEventIntent The {device}
+
+
+
+AMAZON.StopIntent no
+AMAZON.StopIntent nope
+AMAZON.StopIntent cancel
+AMAZON.StopIntent stop
+AMAZON.StopIntent no thanks
+AMAZON.StopIntent no thank you

@@ -1,0 +1,169 @@
+LIST_OF_ATTRIBUTES 
+
+volume
+temperature
+A
+B
+output A
+output B
+
+
+LIST_OF_AUDIO_CONTROL_ACTIONS
+
+lower
+up
+down
+louder
+raise
+increase
+decrease
+quieter
+quieten
+softer
+soften
+pause
+play
+mute
+unmute
+bluetooth
+usb
+u. s. b.
+r. c. a. 1
+rca 1
+r. c. a. 2
+rca 2
+input 1
+input 2
+line
+previous
+back
+next
+aux-1
+aux-2
+aux 1
+aux 2
+
+
+LIST_OF_DEVICES
+
+aktimate
+projector
+projector screen
+projection screen
+left tablelight
+left table light
+right tablelight
+right table light
+air purifier
+speaker
+HDMI switch
+video switch
+HDMI switcher
+video switcher
+Air Con
+Air Con.
+Air-Con
+AirCon
+Aircond
+A. C.
+air-conditioner
+air conditioner
+fan
+video
+video Input
+HDMI input
+monitor
+asus monitor
+screen
+display
+audio
+audio input
+curtain
+magicball
+magic ball
+discoball
+disco ball
+entertainments
+entertainment
+minix projector
+minix monitor
+desktop projector
+desktop monitor
+starhub projector
+starhub monitor
+I. mac projector
+I. mac monitor
+I mac monitor
+I mac projector
+Q. box projector
+Q. box monitor
+Q box monitor
+Q box projector
+
+
+LIST_OF_GENERAL_CONTROL_ACTIONS
+
+up
+down
+pause
+stop
+keep
+activate
+deactivate
+retract
+prepare
+input 1
+input 2
+input 3
+input 4
+input 5
+hdmi 1
+hdmi 2
+hdmi 3
+hdmi 4
+hdmi 5
+raise
+lower
+speed
+timer
+oscillation
+oscil
+oscillate
+input
+
+
+LIST_OF_ON_OFF_ACTIONS
+
+on
+off
+up
+down
+open
+close
+restart
+
+
+LIST_OF_VIDEO_CONTROL_ACTIONS
+
+1
+2
+3
+4
+input 1
+input 2
+input 3
+input 4
+minix
+Q. Box
+Q Box
+off
+
+
+QUANTITY_INDICATOR
+
+time
+times
+level
+levels
+count
+counts
